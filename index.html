@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Livres — книги Валерия Голубя</title>
+  <meta name="description" content="Библиотека Валерия Голубя: цикл «Арена», самостоятельные романы, фэнтези и мистика. Аннотации, порядок чтения и ссылки на книги.">
+  <meta name="theme-color" content="#111815">
+  <meta property="og:type" content="website"><meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Livres — библиотека одного автора">
+  <meta property="og:description" content="Истории за гранью привычного. Фэнтези, параллельные миры и мистика в книгах Валерия Голубя.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<header class="header" id="top"><div class="container header-inner">
+  <a class="brand" href="#top" aria-label="Livres — на главную">livres<span>.</span><small>Библиотека одного автора</small></a>
+  <nav class="nav" aria-label="Основная навигация"><a href="#books">Книги</a><a href="#reading">С чего начать</a><a href="#author">Об авторе</a></nav>
+  <a class="header-author" href="https://t.me/livrestg" target="_blank" rel="noopener noreferrer">Дневник автора ↗</a>
+</div></header>
+<main id="main">
+<section class="v2-section" id="new-book-showcase" aria-label="Книжная витрина">
+<style>.v2-section{padding:30px 0 60px}
+.v2-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:64px}
+.v2-showcase{min-width:0;background:radial-gradient(ellipse at center,#3e503125,transparent 70%)}
+.v2-meta{text-align:center;min-height:78px;color:#e4c775}
+.v2-meta p:first-child{font-size:14px;letter-spacing:1.4px;text-transform:uppercase;margin:0 0 6px}
+.v2-meta p:last-child{font-size:16px;line-height:1.65;margin:0}
+.v2-stage{display:grid;grid-template-columns:44px minmax(0,320px) 44px;justify-content:center;align-items:center;gap:8px}
+.v2-model{position:relative;isolation:isolate;padding:0;border:0;background:none;display:block;width:100%;cursor:pointer;touch-action:pan-y}
+/* A stable HTML shadow, outside the SVG's animated geometry and paint order. */
+.v2-model::before{content:'';position:absolute;left:18%;top:92%;width:64%;height:5%;border-radius:50%;background:radial-gradient(ellipse at center,rgba(0,0,0,.26) 0%,rgba(0,0,0,.12) 38%,rgba(0,0,0,0) 72%);pointer-events:none;z-index:0}
+.v2-model svg{position:relative;z-index:1;display:block;width:100%;height:auto;overflow:visible}
+.v2-arrow{width:44px;height:44px;border:1px solid #ffffff40;border-radius:50%;background:#ffffff06;color:var(--ink);font-size:23px;transition:background .2s}
+.v2-arrow:hover{background:#e4c775;color:#111815}
+.v2-tag{font-size:16px;line-height:1.7;color:#e4c775;text-align:center;max-width:430px;min-height:82px;margin:6px auto 12px}
+.v2-controls{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;font-size:14px;color:#d3bb7d}
+.v2-dots{display:flex;gap:0}.v2-dot{width:28px;height:36px;border:0;padding:0;background:none;position:relative}
+.v2-dot:after{content:'';position:absolute;width:8px;height:8px;border-radius:50%;left:10px;top:14px;background:#ffffff40}
+.v2-dot[aria-pressed=true]:after{background:#e4c775}
+.v2-description{font-size:17px;line-height:1.75;color:var(--muted);margin:20px auto 0;max-width:500px}
+.v2-description p{margin:0}.v2-heading{font-family:var(--serif);font-size:clamp(42px,4.8vw,68px);line-height:1.07;font-weight:400;letter-spacing:-2.5px;margin:26px 0}.v2-heading em{color:var(--accent)}
+@media(max-width:1000px){.v2-layout{gap:30px}.v2-stage{gap:3px;grid-template-columns:38px minmax(0,300px) 38px}.v2-arrow{width:38px;height:38px}}
+@media(max-width:700px){.v2-layout{grid-template-columns:minmax(0,1fr);gap:28px}.v2-heading{font-size:clamp(42px,9vw,57px)}.v2-stage{grid-template-columns:44px minmax(0,300px) 44px}.v2-meta{min-height:0;margin-bottom:14px}}
+</style>
+<div class="container v2-layout">
+  <div class="v2-showcase">
+    <div class="v2-meta" aria-live="polite"><p data-v2="series"></p><p data-v2="genre"></p></div>
+    <div class="v2-stage">
+      <button class="v2-arrow" data-v2="prev" aria-label="Предыдущая книга">←</button>
+      <button class="v2-model" data-v2="model" aria-expanded="false" aria-controls="v2-description" aria-label="Открыть аннотацию">
+        <svg data-v2="svg" viewBox="0 0 320 440" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" shape-rendering="geometricPrecision">
+          <defs>
+            <pattern id="v2-grid" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#f2f5f8"/><path d="M0 10V0H10" fill="none" stroke="#a6b6c6" stroke-width=".6"/></pattern>
+            <linearGradient id="v2-dark"><stop stop-color="#111619"/><stop offset=".5" stop-color="#293135"/><stop offset="1" stop-color="#121719"/></linearGradient>
+            <clipPath id="v2-cover-clip"><rect width="230" height="350" rx="1.5"/></clipPath>
+          </defs>
+          <g data-v2="faces"></g>
+        </svg>
+      </button>
+      <button class="v2-arrow" data-v2="next" aria-label="Следующая книга">→</button>
+    </div>
+    <p class="v2-tag" data-v2="tag" aria-live="polite"></p>
+    <div class="v2-controls"><div class="v2-dots" data-v2="dots" role="group" aria-label="Выбрать книгу"></div><span data-v2="count"></span></div>
+    <div class="v2-description" id="v2-description" hidden><p data-v2="description"></p></div>
+  </div>
+      <div class="hero-copy"><div class="eyebrow">Миры Валерия Голубя</div><h1 class="v2-heading">Истории за гранью<br><em>привычного.</em></h1>
+      <p class="intro">Что, если знакомый мир — лишь одна из реальностей? Фэнтези, мистика и люди, которым предстоит узнать больше, чем они хотели.</p>
+      <div class="actions"><a class="button" href="#books">Выбрать свою историю <span aria-hidden="true">↗</span></a><a class="text-link" href="#reading">С чего начать <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-note"><span aria-hidden="true">✧</span> Шесть книг. Несколько миров. Один автор.</p>
+    </div>
+
+</div>
+<script>(()=>{'use strict';const books=[{"title": "Серая угроза", "series": "Цикл «Арена»", "genre": "Боевое фэнтези · Параллельные миры · Ангелы и демоны", "link": "https://www.litres.ru/book/valeriy-andreevich-golub/seraya-ugroza-48509489/", "cover": "assets/book-1.webp", "textOnCover": true, "accent": "#9aa3b2", "tag": "Начало цикла «Арена». История о монстрах, ангелах и демонах.", "desc": "Небольшой город Эрекниум вот уже несколько десятков лет терроризируют Серые — монстры, анатомией отдаленно похожие на человека. Главный герой, член Ордена — организации, владеющей технологией боя в сознании, Одиннадцатый, на своей шкуре узнает, что Серые эволюционировали и такими темпами смогут уничтожить человечество."}, {"title": "Переход", "series": "Цикл «Арена»", "genre": "Боевое фэнтези · Параллельные миры · Перенос сознания", "link": "https://www.litres.ru/book/valeriy-andreevich-golub/perehod-66731034/", "cover": "assets/book-2.webp", "textOnCover": true, "accent": "#6f8cba", "tag": "История переносит нас из средневекового времени в довольно привычный для нас двадцать первый век.", "desc": "Продолжение книги «Серая угроза». Главный герой возвращается в свой родной мир, чтобы закончить начатое. Уничтожить организацию, создающую монстров из людей."}, {"title": "Обещание", "series": "Цикл «Арена»", "genre": "Боевое фэнтези · Средневековый мир · Ангелы и демоны", "link": "https://www.litres.ru/book/valeriy-andreevich-golub/obeschanie-67081816/", "cover": "assets/book-3.webp", "textOnCover": true, "accent": "#8a6fba", "spine": "repeating-linear-gradient(0deg, transparent 0 10px, rgba(120,140,170,.35) 10px 11px),repeating-linear-gradient(90deg, transparent 0 10px, rgba(120,140,170,.35) 10px 11px),linear-gradient(#f6f8fa,#eef1f5)", "back": "repeating-linear-gradient(0deg, transparent 0 10px, rgba(120,140,170,.35) 10px 11px),repeating-linear-gradient(90deg, transparent 0 10px, rgba(120,140,170,.35) 10px 11px),linear-gradient(#f6f8fa,#eef1f5)", "edge": "#eef1f5", "spineColor": "#5b6472", "tag": "История, которая ломает четвертую стену как внутри книги, так и перед читателем — аккуратно и уместно.", "desc": "Третья часть истории Райса, являясь прямым продолжением «Серой угрозы» и «Перехода», рассказывает о новом путешествии и глобальной проблеме, нависшей над параллельным миром. Казалось, кто может быть сильнее пары Двуликих, но Второй мир приберёг особые устройства, отключающие ментальные способности людей."}, {"title": "Экспансия", "series": "Цикл «Арена»", "genre": "Финал цикла · Параллельные миры · Боевое фэнтези", "link": "https://www.litres.ru/book/valeriy-andreevich-golub/ekspansiya-67760223/", "cover": "assets/book-4.webp", "textOnCover": true, "accent": "#ba6f6f", "tag": "История о том, как девушка и её отец посетили Ад, Рай, Чистилище — и на этом не остановились.", "desc": "Финал приключений Райса, произошедший через двадцать лет после окончания событий прошлой части. Устройство, потерянное в Центральном мире, было активировано, из-за чего реальность на Земле заменилась Ареной. Чтобы вернуться к обычной и размеренной жизни, нужно всего лишь отыскать устройство и отключить его. Что может быть проще?"}, {"title": "Фрактал", "series": "Отдельная история", "genre": "Мистика · Остросюжетная фантастика · Психологическая драма", "link": "https://www.litres.ru/book/valeriy-andreevich-golub/fraktal-67920527/", "cover": "assets/book-5.webp", "textOnCover": true, "accent": "#6fbaa0", "edge": "#eef1f5", "tag": "История о том, что каждый может стать богом, но не каждому это необходимо.", "desc": "Спокойная и размеренная жизнь парня в один миг переворачивается с ног на голову. Он начинает осознавать, что его воспоминания никогда не были реальностью. Майку предстоит разобраться в себе и сохранить свой рассудок в хаотичном безумии."}, {"title": "Гнев", "series": "Отдельная история", "genre": "Мистика · Семь смертных грехов · Драма", "link": "https://www.litres.ru/book/valeriy-andreevich-golub/gnev-71997493/", "cover": "assets/book-6.webp", "textOnCover": true, "accent": "#bba46f", "tag": "Когда добро становится грехом, а спасение — катастрофой, где провести грань?", "desc": "Восемь персонажей, чьи судьбы переплетены, оказываются в эпицентре войны, где каждый шаг — жертва. Они — Звери, чьи тела и разумы терзает борьба с собственной природой. Можно ли быть человеком, если в тебе живёт грех? И что произойдёт, когда тьма внутри станет сильнее, чем стремление к свету?"}];const root=document.getElementById('new-book-showcase');
+const find=name=>root.querySelector(`[data-v2="${name}"]`);
+const svgNS='http://www.w3.org/2000/svg';
+const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+const model=find('model'), faceLayer=find('faces');
+let index=0, yaw=26, startYaw=26, endYaw=26, started=0, duration=0;
+let hover=0, hoverTarget=0, frame=0, pointerStart=null, suppressClickUntil=0;
+let paintOrder='';
+function node(tag,attrs={}){const el=document.createElementNS(svgNS,tag);for(const [key,value] of Object.entries(attrs))el.setAttribute(key,value);return el;}
+// The six planes share one SVG coordinate system: there are no CSS 3D layers.
+const definitions=[
+ ['front',[[-115,-175,16],[115,-175,16],[115,175,16],[-115,175,16]],230,350],
+ ['back',[[115,-175,-16],[-115,-175,-16],[-115,175,-16],[115,175,-16]],230,350],
+ ['spine',[[-115,-175,-16],[-115,-175,16],[-115,175,16],[-115,175,-16]],32,350],
+ ['pages',[[115,-175,16],[115,-175,-16],[115,175,-16],[115,175,16]],32,350],
+ ['top',[[-115,-175,-16],[115,-175,-16],[115,-175,16],[-115,-175,16]],230,32],
+ ['bottom',[[-115,175,16],[115,175,16],[115,175,-16],[-115,175,-16]],230,32]
+];
+const faces=definitions.map(([name,points,w,h])=>{
+ const group=node('g');
+ const rect=node('rect',{width:w,height:h,rx:1, 'stroke-width':.45,'stroke-linejoin':'round'});
+ group.append(rect);
+ let image=null, title=null;
+ if(name==='front'){image=node('image',{width:w,height:h,preserveAspectRatio:'none','clip-path':'url(#v2-cover-clip)'});group.append(image);}
+ if(name==='spine'){title=node('text',{x:175,y:16,transform:'rotate(90 16 16)','text-anchor':'middle','dominant-baseline':'middle','font-family':'Georgia, serif','font-size':12});group.append(title);}
+ faceLayer.append(group);
+ return {name,points,w,h,group,rect,image,title};
+});
+function request(){if(!frame)frame=requestAnimationFrame(draw);}
+function draw(now){
+ frame=0;
+ const t=duration?Math.min(1,(now-started)/duration):1;
+ yaw=startYaw+(endYaw-startYaw)*(t*t*(3-2*t));
+ hover+=(hoverTarget-hover)*.18;
+ if(Math.abs(hoverTarget-hover)<.001)hover=hoverTarget;
+ const a=(yaw-hover*8)*Math.PI/180, b=(8-hover*3)*Math.PI/180;
+ const project=([x,y,z])=>{
+  const xx=x*Math.cos(a)+z*Math.sin(a), zz=-x*Math.sin(a)+z*Math.cos(a);
+  return [160+xx,213+y*Math.cos(b)-zz*Math.sin(b)-hover*9,y*Math.sin(b)+zz*Math.cos(b)];
+ };
+ const visible=faces.map(face=>({...face,p:face.points.map(project)}));
+ visible.sort((a,b)=>a.p.reduce((s,p)=>s+p[2],0)-b.p.reduce((s,p)=>s+p[2],0));
+ for(const face of visible){
+  const [p,q,,r]=face.p;
+  const matrix=[(q[0]-p[0])/face.w,(q[1]-p[1])/face.w,(r[0]-p[0])/face.h,(r[1]-p[1])/face.h,p[0],p[1]];
+  face.group.setAttribute('transform',`matrix(${matrix.join(' ')})`);
+ }
+ const nextOrder=visible.map(face=>face.name).join(',');
+ if(nextOrder!==paintOrder){
+  for(const face of visible)faceLayer.append(face.group);
+  paintOrder=nextOrder;
+ }
+ if(t<1||hover!==hoverTarget)request();
+}
+function rotate(target){startYaw=yaw;endYaw=target;started=performance.now();duration=reduced.matches?0:700;request();}
+function update(){
+ const book=books[index];
+ for(const key of ['series','genre','tag'])find(key).textContent=book[key];
+ find('description').textContent=book.desc;
+ find('count').textContent=`${String(index+1).padStart(2,'0')} / ${String(books.length).padStart(2,'0')}`;
+ model.setAttribute('aria-label',`${model.getAttribute('aria-expanded')==='true'?'Закрыть':'Открыть'} аннотацию: ${book.title}`);
+ for(const [i,button] of [...find('dots').children].entries())button.setAttribute('aria-pressed',String(i===index));
+ for(const face of faces){
+  let fill='#171c20';
+  if(face.name==='spine')fill=book.spine?'url(#v2-grid)':'url(#v2-dark)';
+  if(face.name==='back')fill=book.back?'url(#v2-grid)':'#171c20';
+  if(['pages','top','bottom'].includes(face.name))fill=book.edge||({pages:'#e2ddd0',top:'#eae5da',bottom:'#c9c3b6'}[face.name]);
+  face.rect.setAttribute('fill',fill);face.rect.setAttribute('stroke',fill);
+  if(face.image)face.image.setAttribute('href',book.cover);
+  if(face.title){face.title.textContent=book.title;face.title.setAttribute('fill',book.spineColor||'#e6e2d6');}
+ }
+ request();
+}
+function select(next,direction=1){
+ index=(next+books.length)%books.length;
+ update();rotate(26+360*(Math.round((yaw-26)/360)+direction));
+}
+books.forEach((book,i)=>{
+ const button=document.createElement('button');button.className='v2-dot';
+ button.setAttribute('aria-label',book.title);
+ button.addEventListener('click',()=>{if(i!==index)select(i,i>index?1:-1);});find('dots').append(button);
+});
+find('prev').addEventListener('click',()=>select(index-1,-1));
+find('next').addEventListener('click',()=>select(index+1,1));
+model.addEventListener('click',()=>{
+ if(performance.now()<suppressClickUntil)return;
+ const open=model.getAttribute('aria-expanded')!=='true';
+ model.setAttribute('aria-expanded',String(open));document.getElementById('v2-description').hidden=!open;update();
+});
+function setHover(active){hoverTarget=active&&!reduced.matches?1:0;request();}
+model.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch')setHover(true);});
+model.addEventListener('pointerleave',()=>setHover(false));
+model.addEventListener('focus',()=>setHover(true));model.addEventListener('blur',()=>setHover(false));
+root.addEventListener('keydown',e=>{
+ if(e.key==='ArrowRight'){e.preventDefault();select(index+1,1);}
+ if(e.key==='ArrowLeft'){e.preventDefault();select(index-1,-1);}
+ if(e.key==='Escape'){model.setAttribute('aria-expanded','false');document.getElementById('v2-description').hidden=true;update();}
+});
+model.addEventListener('pointerdown',e=>{pointerStart=[e.clientX,e.clientY];});
+model.addEventListener('pointerup',e=>{
+ if(!pointerStart)return;
+ const dx=e.clientX-pointerStart[0],dy=e.clientY-pointerStart[1];pointerStart=null;
+ if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){suppressClickUntil=performance.now()+500;select(index+(dx<0?1:-1),dx<0?1:-1);}
+});
+model.addEventListener('pointercancel',()=>{pointerStart=null;});
+reduced.addEventListener('change',()=>{hoverTarget=0;duration=0;request();});
+update();
+})();</script>
+</section>
+  <div class="container divider"><span><b>01 — 06</b> &nbsp; Авторская библиотека</span><span>Фэнтези &nbsp; / &nbsp; Мистика &nbsp; / &nbsp; Другие миры</span><span>Истории, которые остаются</span></div>
+  <section class="container" id="books" aria-labelledby="books-title">
+    <div class="section-head"><div><div class="eyebrow">На книжной полке</div><h2 id="books-title">Выберите свой мир</h2></div><p>Большое путешествие или отдельная история — решать вам.</p></div>
+    <div class="filters" role="group" aria-label="Фильтр книг"><button class="filter" data-filter="all" aria-pressed="true">Все книги <span>06</span></button><button class="filter" data-filter="arena" aria-pressed="false">Цикл «Арена» <span>04</span></button><button class="filter" data-filter="standalone" aria-pressed="false">Вне цикла <span>02</span></button></div>
+    <div class="book-grid"><article class="book-card" id="book-1" data-group="arena">
+      <div class="cover-area"><span class="book-number">01 / 06</span><img src="assets/book-1.webp" alt="Обложка книги «Серая угроза»" width="200" height="303" loading="lazy"></div>
+      <p class="book-category">Цикл «Арена» · Книга 1</p><h3>Серая угроза</h3><p class="book-tag">Начало цикла «Арена». История о монстрах, ангелах и демонах.</p>
+      <details><summary>О книге</summary><p>Небольшой город Эрекниум вот уже несколько десятков лет терроризируют Серые — монстры, анатомией отдаленно похожие на человека. Главный герой, член Ордена — организации, владеющей технологией боя в сознании, Одиннадцатый, на своей шкуре узнает, что Серые эволюционировали и такими темпами смогут уничтожить человечество.</p><p>Боевое фэнтези · Параллельные миры · Ангелы и демоны</p></details>
+      <a class="read-link" href="https://www.litres.ru/book/valeriy-andreevich-golub/seraya-ugroza-48509489/" target="_blank" rel="noopener noreferrer">Читать на Литрес <span aria-hidden="true">↗</span></a>
+    </article>
+<article class="book-card" id="book-2" data-group="arena">
+      <div class="cover-area"><span class="book-number">02 / 06</span><img src="assets/book-2.webp" alt="Обложка книги «Переход»" width="200" height="303" loading="lazy"></div>
+      <p class="book-category">Цикл «Арена» · Книга 2</p><h3>Переход</h3><p class="book-tag">История переносит нас из средневекового времени в довольно привычный для нас двадцать первый век.</p>
+      <details><summary>О книге</summary><p>Продолжение книги «Серая угроза». Главный герой возвращается в свой родной мир, чтобы закончить начатое. Уничтожить организацию, создающую монстров из людей.</p><p>Боевое фэнтези · Параллельные миры · Перенос сознания</p></details>
+      <a class="read-link" href="https://www.litres.ru/book/valeriy-andreevich-golub/perehod-66731034/" target="_blank" rel="noopener noreferrer">Читать на Литрес <span aria-hidden="true">↗</span></a>
+    </article>
+<article class="book-card" id="book-3" data-group="arena">
+      <div class="cover-area"><span class="book-number">03 / 06</span><img src="assets/book-3.webp" alt="Обложка книги «Обещание»" width="200" height="303" loading="lazy"></div>
+      <p class="book-category">Цикл «Арена» · Книга 3</p><h3>Обещание</h3><p class="book-tag">История, которая ломает четвертую стену как внутри книги, так и перед читателем — аккуратно и уместно.</p>
+      <details><summary>О книге</summary><p>Третья часть истории Райса, являясь прямым продолжением «Серой угрозы» и «Перехода», рассказывает о новом путешествии и глобальной проблеме, нависшей над параллельным миром. Казалось, кто может быть сильнее пары Двуликих, но Второй мир приберёг особые устройства, отключающие ментальные способности людей.</p><p>Боевое фэнтези · Средневековый мир · Ангелы и демоны</p></details>
+      <a class="read-link" href="https://www.litres.ru/book/valeriy-andreevich-golub/obeschanie-67081816/" target="_blank" rel="noopener noreferrer">Читать на Литрес <span aria-hidden="true">↗</span></a>
+    </article>
+<article class="book-card" id="book-4" data-group="arena">
+      <div class="cover-area"><span class="book-number">04 / 06</span><img src="assets/book-4.webp" alt="Обложка книги «Экспансия»" width="200" height="303" loading="lazy"></div>
+      <p class="book-category">Цикл «Арена» · Книга 4</p><h3>Экспансия</h3><p class="book-tag">История о том, как девушка и её отец посетили Ад, Рай, Чистилище — и на этом не остановились.</p>
+      <details><summary>О книге</summary><p>Финал приключений Райса, произошедший через двадцать лет после окончания событий прошлой части. Устройство, потерянное в Центральном мире, было активировано, из-за чего реальность на Земле заменилась Ареной. Чтобы вернуться к обычной и размеренной жизни, нужно всего лишь отыскать устройство и отключить его. Что может быть проще?</p><p>Финал цикла · Параллельные миры · Боевое фэнтези</p></details>
+      <a class="read-link" href="https://www.litres.ru/book/valeriy-andreevich-golub/ekspansiya-67760223/" target="_blank" rel="noopener noreferrer">Читать на Литрес <span aria-hidden="true">↗</span></a>
+    </article>
+<article class="book-card" id="book-5" data-group="standalone">
+      <div class="cover-area"><span class="book-number">05 / 06</span><img src="assets/book-5.webp" alt="Обложка книги «Фрактал»" width="200" height="303" loading="lazy"></div>
+      <p class="book-category">Самостоятельный роман</p><h3>Фрактал</h3><p class="book-tag">История о том, что каждый может стать богом, но не каждому это необходимо.</p>
+      <details><summary>О книге</summary><p>Спокойная и размеренная жизнь парня в один миг переворачивается с ног на голову. Он начинает осознавать, что его воспоминания никогда не были реальностью. Майку предстоит разобраться в себе и сохранить свой рассудок в хаотичном безумии.</p><p>Мистика · Остросюжетная фантастика · Психологическая драма</p></details>
+      <a class="read-link" href="https://www.litres.ru/book/valeriy-andreevich-golub/fraktal-67920527/" target="_blank" rel="noopener noreferrer">Читать на Литрес <span aria-hidden="true">↗</span></a>
+    </article>
+<article class="book-card" id="book-6" data-group="standalone">
+      <div class="cover-area"><span class="book-number">06 / 06</span><img src="assets/book-6.webp" alt="Обложка книги «Гнев»" width="200" height="303" loading="lazy"></div>
+      <p class="book-category">Самостоятельный роман</p><h3>Гнев</h3><p class="book-tag">Когда добро становится грехом, а спасение — катастрофой, где провести грань?</p>
+      <details><summary>О книге</summary><p>Восемь персонажей, чьи судьбы переплетены, оказываются в эпицентре войны, где каждый шаг — жертва. Они — Звери, чьи тела и разумы терзает борьба с собственной природой. Можно ли быть человеком, если в тебе живёт грех? И что произойдёт, когда тьма внутри станет сильнее, чем стремление к свету?</p><p>Мистика · Семь смертных грехов · Драма</p></details>
+      <a class="read-link" href="https://www.litres.ru/book/valeriy-andreevich-golub/gnev-71997493/" target="_blank" rel="noopener noreferrer">Читать на Литрес <span aria-hidden="true">↗</span></a>
+    </article></div><p class="empty-count" id="book-count" role="status" aria-live="polite">Показано 6 из 6 книг</p>
+    <noscript><p>Все книги доступны ниже. Для фильтрации включите JavaScript в браузере.</p></noscript>
+  </section>
+  <section class="reading" id="reading"><div class="container reading-layout">
+    <div class="reading-copy"><div class="eyebrow">Маршрут читателя</div><h2>У каждой истории<br>есть начало.</h2><p>Если любите параллельные миры и длинные приключения, начните с «Серой угрозы». Четыре книги «Арены» — одна история, которую лучше читать по порядку.</p><p>Хотите познакомиться с автором за один роман? Выберите «Фрактал» — самостоятельную историю о памяти и реальности.</p><a href="#book-5" class="text-link">Познакомиться с «Фракталом» <span>↗</span></a></div>
+    <ol aria-label="Порядок чтения цикла Арена"><li><a href="#book-1">Серая угроза<span>↗</span></a></li><li><a href="#book-2">Переход<span>↗</span></a></li><li><a href="#book-3">Обещание<span>↗</span></a></li><li><a href="#book-4">Экспансия<span>↗</span></a></li></ol>
+  </div></section>
+  <section class="container about" id="author"><div><div class="eyebrow">За страницами</div><div class="author-mark" aria-hidden="true">ВГ.</div><div class="author-name">Валерий Голубь</div></div>
+    <div class="about-copy"><h2>Один автор.<br>Много вопросов к реальности.</h2><p>Валерий Голубь пишет фэнтези и мистические истории. Его первая книга, «Серая угроза», начатая ещё в пятнадцать лет, стала отправной точкой цикла «Арена».</p><p>От приключений Райса в параллельных мирах до загадок памяти во «Фрактале» — в каждой истории привычное оказывается сложнее, чем кажется на первый взгляд.</p><div class="social"><a href="https://t.me/livrestg" target="_blank" rel="noopener noreferrer">Telegram ↗</a><a href="https://vk.com/livresvk" target="_blank" rel="noopener noreferrer">ВКонтакте ↗</a></div></div>
+  </section>
+  <aside class="container news"><div><h2>История продолжается</h2><p>Новости книг и заметки автора — в Telegram. Присоединяйтесь, чтобы не пропустить следующую главу.</p></div><a class="button" href="https://t.me/livrestg" target="_blank" rel="noopener noreferrer">В Telegram автора <span>↗</span></a></aside>
+</main>
+<footer class="footer"><div class="container footer-inner"><a class="brand" href="#top">livres<span>.</span></a><span>© <span id="year">2026</span> Валерий Голубь · Библиотека одного автора</span><a href="#top">К началу ↑</a></div></footer>
+</body></html>
